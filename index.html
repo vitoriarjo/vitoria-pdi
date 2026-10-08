@@ -71,7 +71,7 @@ body.editing input[data-save],body.editing textarea[data-save],body.editing sele
 </div><div id="saved" class="saved">Salvo ✓</div>
 
 <script>
-const API_URL='https://script.google.com/macros/s/AKfycbzwSCIryyrEoI6lRsiV6cIA8veZg_dcqC3TCQUS8P2UQ8pxw5ldoAjqlRSs1Ir0r5AdTw/exec';
+const API_URL='https://script.google.com/macros/s/AKfycbzToP-hsY1_pMAsm7x_C7HqmJrJlDmCVB73Xph5pDiaAJoIoCX-5MhNmExyehu07qHayQ/exec';
 const KEY='pdi_vitoria_pm_v2',HKEY='pdi_vitoria_pm_hist_v2',UKEY='pdi_vitoria_pm_updated_v2';let editing=false,beforeEdit={};
 const all=()=>[...document.querySelectorAll('[data-save]')];
 function collect(){const d={};all().forEach(x=>d[x.dataset.save]=x.value);return d}
